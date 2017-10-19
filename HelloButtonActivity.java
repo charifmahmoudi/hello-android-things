@@ -5,7 +5,7 @@
  * and flip the state of the LED GPIO pin. Note that an LED and a push button switch to pins specified in {@link PiDefaults}
  * are required.
  */
-public class ButtonActivity extends Activity {
+public class HelloButtonActivity extends Activity {
     private static final String TAG = ButtonActivity.class.getSimpleName();
 
     private Gpio mLedGpio;
